@@ -1,0 +1,21 @@
+{
+    "applications": "Applications",
+    "your_profile": "Your profile",
+    "user": "User",
+    "developer": "Developer",
+    "sign_out": "Sign out",
+    "edit_companies": "Edit companies",
+    "search": "Search",
+    "subscribed_apps": "Subscribed apps",
+    "published_by": "Published By",
+    "cancel_subscription": "Cancel Subscription",
+    "open_app": "Open App",
+    "description": "Description",
+    "plans": "Plans",
+    "select_a_tab": "Select a tab",
+    "payment_frequency": "Payment frequency",
+    "most_popular": "Most popular",
+    "buy_plan": "Buy plan",
+    "monthly": "Monthly",
+    "annually": "Annually"
+  }

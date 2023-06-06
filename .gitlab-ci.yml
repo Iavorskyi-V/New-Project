@@ -1,0 +1,20 @@
+stages:
+  - build
+
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
+  container_image: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+
+build:build:
+  image: docker:24.0.2
+  services:
+    - name: docker:24.0.2-dind
+  stage: build
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" "$CI_REGISTRY" --password-stdin
+  script:
+    - docker build -t $container_image .
+    - docker push $container_image
+  tags:
+    - scw1

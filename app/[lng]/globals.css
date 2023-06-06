@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BigJohn';
+  src: url(../../fonts/Big_John_Slim_Joe/BIG_JOHN.otf);
+}
+@font-face {
+  font-family: 'SlimJoe';
+  src: url(../../fonts/Big_John_Slim_Joe/SlimJoe.otf);
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url(../../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url(../../fonts/Inter/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(../../fonts/Inter/static/Inter-Regular.ttf);
+}
+.text-gradient-static,
+.text-gradient:hover {
+  background: -webkit-linear-gradient(-45deg,#A5B9B6 0%, #AAA3FF 20%, #968FFF 50%, #A798FF 80%, #AAA7F4 90%, #A5B9B6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-lightPurple-gradient-static{
+  background: -webkit-linear-gradient(121.27deg, #B3B1B6 6.73%, #B797FF 47.74%, #B4ADC3 101.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-blue-gradient-static{
+  background: -webkit-linear-gradient(125.12deg, #22255B 0%, #191545 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
